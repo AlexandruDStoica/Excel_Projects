@@ -1,0 +1,22 @@
+This is a guided project by Maven Analytics
+
+Calculating Basic Profile Metrics:
+Minimum, maximum, count, and number of blanks have been calculated for each numerical field.
+
+Data Cleaning and Standardization
+Records with blank responses have been removed.
+Duplicate records across all fields have been eliminated.
+The Department and Question fields have been profiled for frequency, and inconsistencies have been standardized.
+
+Prepare the Data for Visualization
+A new tab named "Chart Source" has been created, containing a unique list of survey questions
+For each question, the count of records associated with each response type (1-4) and the average response, excluding zeros, have been calculated.
+Additional columns have been added to convert counts into percentages based on the total responses for each questions.
+The data has been copied and pasted as values, and questions have been sorted descending by average response.
+
+Visualize the Data and Summarize Findings
+Percentages have been visualized using a 100% stacked bar chart, with the question having the highest average response at the top.
+Data labels have been added, the x-axis, title, and vertical gridlines removed, and individual chart elements formatted for better readability.
+
+Insights and Recommendations
+Insights and recommendations based on the visualized data will be presented to the HR leadership team.
