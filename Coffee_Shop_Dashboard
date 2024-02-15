@@ -1,0 +1,22 @@
+This is a guided project by Maven Analytics
+
+Data Preparation: 
+The coffee shop data was explored to understand the number of recorded transactions and the time period covered. 
+A new column was added to calculate revenue (price * quantity), and additional columns were created to represent the month and day of the week in text format, along with the transaction hour.
+
+Exploration with Pivot Tables: 
+Excel Pivot Tables were employed to analyze the data in more detail. 
+Several Pivot Tables were created to display revenue by month, the number of transactions by day of the week and hour of the day, and the number of transactions by product category and type.
+
+Building a Dynamic Dashboard: 
+An interactive dashboard was designed using Pivot Charts to visualize the data more intuitively. 
+Line charts were included to represent monthly revenues, column charts for the number of transactions by day of the week and hour of the day, and a bar chart to analyze transactions by product category. 
+A dynamic filter by store location was added for a more personalized analysis.
+Conclusions and Recommendations: During data analysis, various interesting patterns were identified, such as sales peaks on specific days of the week or hours of the day, and popular products among customers. 
+Based on these findings, the following recommendations could be offered to improve:
+Optimize inventory for popular products to meet demand during peak hours.
+
+Implement specific marketing strategies to promote less-sold products and increase their visibility.
+Analyze store locations and adjust sales strategies based on customer preferences and behaviors in each area.
+Offer special promotions or discounts during off-peak periods to stimulate sales.
+
