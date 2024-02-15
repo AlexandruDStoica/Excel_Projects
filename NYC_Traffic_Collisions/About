@@ -1,0 +1,27 @@
+This is a guided project by Maven Analytics
+
+Identify Seasonal Patterns
+In the first objective, the focus was on understanding seasonal patterns in collision data. 
+The analysis involved calculating the number of collisions by month and year. 
+A line chart was used to visually represent the data, with each year displayed as a separate line. 
+To enhance accuracy, incomplete data for April 2023 was filtered out. 
+The finalized chart not only provides a clear overview of collision trends over the years but also facilitates the identification of any recurring patterns.
+
+Visualize Weekly Trends
+The second objective aimed to uncover weekly trends in collision occurrences. 
+Weekday and hour information was extracted from the 'Date' and 'Time' columns, allowing for a detailed analysis of collisions by time of day and day of the week. 
+A heatmap was utilized to visualize collision hotspots, with a "white-white-red" 3-color scale emphasizing the most dangerous periods. 
+This visualization provides valuable insights into when accidents are more likely to happen during the week.
+
+Analyze Contributing Factors
+The final objective delved into identifying the top 10 contributing factors to collisions. 
+By calculating the count of 'Collision ID' by each contributing factor and filtering the top 10, the analysis highlighted the major causes. 
+Additionally, the percentage of collisions involving injuries or fatalities was computed for each contributing factor. 
+The results were visually represented using data bars, offering a clear understanding of the severity associated with each contributing factor. 
+This analysis provides actionable insights for addressing specific factors contributing to dangerous collisions.
+
+Conclusion:
+
+This comprehensive traffic safety analysis project successfully achieved its objectives by exploring seasonal patterns, visualizing weekly trends, 
+and analyzing contributing factors to collisions. 
+The visualizations and insights obtained from this analysis can inform targeted interventions and policies to enhance road safety.
