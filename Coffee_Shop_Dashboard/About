@@ -1,26 +1,29 @@
 This is a guided project by Maven Analytics.
 
 Project Objective:
-The main objective of this project is to analyze consumer complaints, identifying trends, patterns, and areas for improvement in customer service. 
-The project is divided into three stages: calculating key performance indicators (KPIs), visualizing the weekly trend, and finalizing the report with formatting and polish.
+The primary objective of this project is to perform a comprehensive analysis of Maven Roasters' coffee shop dataset, 
+preparing it for insightful analysis and creating dynamic visualizations. 
+Through this process, we aim to uncover trends related to revenue, transaction patterns, and popular products. 
+The end goal is to provide actionable insights that can inform strategic decision-making for Maven Roasters.
 
- Calculation of KPIs
- Created a new column to identify the complaint status as "Open" or "Closed" based on the company's response.
- Added a column indicating the start of each week for complaints, setting Monday as the starting day.
- Extracted the Year, Month, and Day from the week start column.
- Adjusted the formula for the month to return the abbreviated month name ("Jan," "Feb," etc.).
+Prepare the Data for Analysis:
+ Understand recorded transactions, time period, and products sold.
+ Add a new column to calculate revenue (price * quantity).
+ Introduce new columns for Month, Day of Week (text format), and Hour based on transaction date and time.
 
- Visualization of the Weekly
- Inserted a new PivotTable to calculate the count of complaint IDs by status, including the total.
- Displayed the results in a single row with the heading "Complaints:" to the left.
- Added a prominent title ("Consumer Complaints Tracking") and applied formatting to enhance visual appeal.
- Inserted a timeline using the week start field to filter the results.
- 
-Finalization of the Report
- Calculated the count of complaint IDs by status and date. Created a stacked column chart to visualize the weekly trend.
- Connected the chart to the week start timeline for dynamic filtering.
- Positioned the "Open" column at the baseline for improved readability.
- Utilized colors from the "Open" and "Closed" KPIs as a legend for the chart. Applied additional formatting and alignment for a polished appearance.
- 
+Explore the Data with Pivot Tables:
+ Create a PivotTable to visualize revenue trends by month.
+ Develop PivotTables to analyze transactions by day of the week and hour of the day.
+ Utilize PivotTables to understand the number of transactions by product category, sorted descending by transactions.
+ Generate a PivotTable to showcase transactions and revenue for the Top 15 product types.
+
+Build a Dynamic Dashboard:
+ Integrate Pivot Charts to visually represent revenue, transactions, and product insights.
+ Design an interactive dashboard layout with a location slicer for dynamic filtering.
+ Apply formatting and polishing techniques for a professional and user-friendly presentation.
+
 Conclusion:
-This report offers a comprehensive overview of consumer complaints, empowering the company to make strategic decisions for improved customer service and satisfaction.
+In conclusion, this data analysis and visualization project have successfully provided valuable insights into the coffee shop's operations. 
+The dynamic dashboard, enriched with PivotTables and charts, offers a deeper understanding of revenue trends, transaction patterns, and popular products. 
+The strategic recommendations derived from these insights position the coffee shop to enhance operational efficiency, optimize staffing, and refine marketing strategies. 
+This project serves as a powerful tool for ongoing decision-making, empowering the coffee shop to adapt and thrive in a competitive market.
