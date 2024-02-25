@@ -1,10 +1,9 @@
 This is a guided project by Maven Analytics.
 
 Project Objective:
-The primary objective of this project is to perform a comprehensive analysis of Maven Roasters' coffee shop dataset, 
-preparing it for insightful analysis and creating dynamic visualizations. 
+The primary objective of this project is to perform a comprehensive analysis of a coffee shop dataset, preparing it for insightful analysis and creating dynamic visualizations. 
 Through this process, we aim to uncover trends related to revenue, transaction patterns, and popular products. 
-The end goal is to provide actionable insights that can inform strategic decision-making for Maven Roasters.
+The end goal is to provide actionable insights that can inform strategic decision-making for the coffee shop.
 
 Prepare the Data for Analysis:
  Understand recorded transactions, time period, and products sold.
