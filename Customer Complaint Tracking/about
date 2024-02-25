@@ -1,1 +1,27 @@
+Project Objective:
 
+The primary objective of this project is to analyze consumer complaints to identify trends, patterns, and areas for improvement in customer service. 
+It will be divided into three stages: calculating key performance indicators (KPIs), visualizing the weekly trend, and finalizing the report with formatting and polish.
+
+Calculation of KPIs**
+A new column will be created to identify whether a complaint is "Open" or "Closed" based on the company's response status to the consumer. 
+("In progress" is considered "Open," while other statuses are considered "Closed").
+A column indicating the start of the corresponding week for each complaint will be added, setting Monday as the starting day.
+The year, month, and day will be extracted from the week start column.
+The formula for the month will be adjusted to return the month name in abbreviated format ("Jan," "Feb," etc.).
+
+Visualization of the Weekly Trend**
+The count of complaint IDs by status, including the overall total, will be calculated.
+The results will be displayed in a single row with the heading "Complaints:" to the left.
+A prominent title ("Consumer Complaints Tracking") will be added, and formatting will be applied to both the title and KPIs.
+A timeline using the week start field will be inserted to filter the results.
+
+Finalization of the Report
+The count of complaint IDs by status (columns) and year, month, and day (rows) will be calculated. A stacked column chart will be created to visualize the weekly trend.
+The chart will be connected to the week start timeline filter.
+The "Open" column will be placed at the baseline of the chart for improved readability.
+The colors in the "Open" and "Closed" KPIs will be used as a legend for the chart, and additional formatting and alignment will be applied to finalize the report.
+
+Conclusion:
+
+This report will provide a detailed insight into the management of consumer complaints, enabling the company to make informed decisions to enhance customer service and satisfaction.
